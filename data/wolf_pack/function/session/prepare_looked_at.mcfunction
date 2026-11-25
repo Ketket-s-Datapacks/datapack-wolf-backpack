@@ -1,0 +1,2 @@
+# Resolve the wolf in the owner's view, including when two owned wolves sit side by side.
+$execute as @a[distance=..3,nbt={UUID:$(Owner)},limit=1] if predicate {"type":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:type_specific/player":{"looking_at":{"minecraft:nbt":"{UUID:$(UUID)}"}}}} as @e[type=minecraft:wolf,tag=wolf_pack.chested,distance=..0.1,nbt={UUID:$(UUID)},limit=1] run function wolf_pack:session/prepare

@@ -1,0 +1,19 @@
+{
+  "parent": "wolf_pack:adv_main",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": "A Helping Paw",
+    "description": "Equip your wolf with a backpack.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "equip_backpack": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

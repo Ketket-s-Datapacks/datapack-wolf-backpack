@@ -1,0 +1,619 @@
+{
+  "criteria": {
+    "target_0": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.0\"]}"
+          }
+        }
+      }
+    },
+    "target_1": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.1\"]}"
+          }
+        }
+      }
+    },
+    "target_2": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.2\"]}"
+          }
+        }
+      }
+    },
+    "target_3": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.3\"]}"
+          }
+        }
+      }
+    },
+    "target_4": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.4\"]}"
+          }
+        }
+      }
+    },
+    "target_5": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.5\"]}"
+          }
+        }
+      }
+    },
+    "target_6": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.6\"]}"
+          }
+        }
+      }
+    },
+    "target_7": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.7\"]}"
+          }
+        }
+      }
+    },
+    "target_8": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.8\"]}"
+          }
+        }
+      }
+    },
+    "target_9": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.9\"]}"
+          }
+        }
+      }
+    },
+    "target_10": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.10\"]}"
+          }
+        }
+      }
+    },
+    "target_11": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.11\"]}"
+          }
+        }
+      }
+    },
+    "target_12": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.12\"]}"
+          }
+        }
+      }
+    },
+    "target_13": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.13\"]}"
+          }
+        }
+      }
+    },
+    "target_14": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.14\"]}"
+          }
+        }
+      }
+    },
+    "target_15": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.15\"]}"
+          }
+        }
+      }
+    },
+    "target_16": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.16\"]}"
+          }
+        }
+      }
+    },
+    "target_17": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.17\"]}"
+          }
+        }
+      }
+    },
+    "target_18": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.18\"]}"
+          }
+        }
+      }
+    },
+    "target_19": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.19\"]}"
+          }
+        }
+      }
+    },
+    "target_20": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.20\"]}"
+          }
+        }
+      }
+    },
+    "target_21": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.21\"]}"
+          }
+        }
+      }
+    },
+    "target_22": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.22\"]}"
+          }
+        }
+      }
+    },
+    "target_23": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.23\"]}"
+          }
+        }
+      }
+    },
+    "target_24": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.24\"]}"
+          }
+        }
+      }
+    },
+    "target_25": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.25\"]}"
+          }
+        }
+      }
+    },
+    "target_26": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.26\"]}"
+          }
+        }
+      }
+    },
+    "target_27": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.27\"]}"
+          }
+        }
+      }
+    },
+    "target_28": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.28\"]}"
+          }
+        }
+      }
+    },
+    "target_29": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.29\"]}"
+          }
+        }
+      }
+    },
+    "target_30": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.30\"]}"
+          }
+        }
+      }
+    },
+    "target_31": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "count": {
+            "max": 0
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.click.31\"]}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "target_0",
+      "target_1",
+      "target_2",
+      "target_3",
+      "target_4",
+      "target_5",
+      "target_6",
+      "target_7",
+      "target_8",
+      "target_9",
+      "target_10",
+      "target_11",
+      "target_12",
+      "target_13",
+      "target_14",
+      "target_15",
+      "target_16",
+      "target_17",
+      "target_18",
+      "target_19",
+      "target_20",
+      "target_21",
+      "target_22",
+      "target_23",
+      "target_24",
+      "target_25",
+      "target_26",
+      "target_27",
+      "target_28",
+      "target_29",
+      "target_30",
+      "target_31"
+    ]
+  ],
+  "rewards": {
+    "function": "wolf_pack:interaction/clicked"
+  }
+}

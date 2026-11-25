@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "wolf": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.chested\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {"function": "wolf_pack:release/armor_sheared"}
+}

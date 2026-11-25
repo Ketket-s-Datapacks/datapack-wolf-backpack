@@ -1,0 +1,2 @@
+# The advancement reports to the player. Check the exact prepared UUID against their current ray.
+$execute if predicate {"type":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:type_specific/player":{"looking_at":{"minecraft:nbt":"{UUID:$(proxy)}"}}}} as @e[type=minecraft:donkey,tag=wolf_pack.ready,distance=..4,nbt={UUID:$(proxy)},limit=1] at @s run function wolf_pack:session/activate with entity @s data.wolf_pack

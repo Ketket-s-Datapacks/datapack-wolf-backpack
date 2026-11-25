@@ -1,0 +1,18 @@
+{
+  "parent": "ketkets:main",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": "Wolf Backpack",
+    "description": "Advancements of Wolf Backpack.",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "location": {
+      "trigger": "minecraft:location"
+    }
+  }
+}

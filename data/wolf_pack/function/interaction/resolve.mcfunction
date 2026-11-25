@@ -1,0 +1,4 @@
+$execute store result score #targets wolf_pack.click if entity @e[type=minecraft:wolf,tag=wolf_pack.click.$(channel)]
+execute unless score #targets wolf_pack.click matches 1 run return fail
+$execute if items entity @s $(slot) minecraft:chest[!minecraft:custom_data] as @e[type=minecraft:wolf,tag=wolf_pack.click.$(channel),tag=!wolf_pack.chested,distance=..6,nbt={Owner:$(player)},limit=1] at @s run return run function wolf_pack:interaction/apply {player:$(player),slot:"$(slot)",remove:0}
+$execute if items entity @s $(slot) minecraft:shears as @e[type=minecraft:wolf,tag=wolf_pack.click.$(channel),tag=wolf_pack.chested,distance=..6,nbt={Owner:$(player)},nbt=!{equipment:{body:{id:"minecraft:wolf_armor"}}},limit=1] at @s run function wolf_pack:interaction/apply {player:$(player),slot:"$(slot)",remove:1}

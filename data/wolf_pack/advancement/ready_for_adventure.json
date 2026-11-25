@@ -1,0 +1,19 @@
+{
+  "parent": "wolf_pack:a_helping_paw",
+  "display": {
+    "icon": {
+      "id": "minecraft:bundle"
+    },
+    "title": "Ready for Adventure",
+    "description": "Fill all 15 slots of your wolf's backpack.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fill_backpack": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

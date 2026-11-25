@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "open": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": "wolf_pack:sneaking",
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:donkey",
+            "minecraft:nbt": "{Tags:[\"wolf_pack.ready\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {"function": "wolf_pack:session/opened"}
+}
